@@ -1,29 +1,15 @@
 # Glyph World
 
-A fixed-scene browser game prototype inspired by an Egyptian hieroglyph landscape.
+Four-level fixed-scene browser game.
 
-## Controls
-
-- **W / ↑** — move upward
-- **S / ↓** — move downward
-- **A / ←** — move left
-- **D / →** — move right
-- Click the people in the scene to receive hints.
-- Find all five birds.
-
-## Character
-
-The player alternates between Gardiner signs **A2 (𓀁)** and **A3 (𓀂)** while moving.
+- Move with WASD / arrow keys.
+- The player alternates between Gardiner A2 (𓀁) and A3 (𓀂) while moving.
+- Moving upward scales the player down to create depth.
+- Find five new glyph items in each level.
+- Click the people for location hints.
+- Completing a level shows a victory screen and unlocks the next level.
+- After level 4, a final completion screen appears.
 
 ## GitHub Pages
 
-1. Create a new GitHub repository.
-2. Upload `index.html` to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Select the branch containing `index.html` and the `/ (root)` folder.
-6. Save. GitHub will provide the Pages URL.
-
-## Notes
-
-This prototype is intentionally a single-file web game, so no build system, Node.js installation, or external JavaScript packages are required.
+Upload `index.html` to the repository root, then enable GitHub Pages from **Settings → Pages → Deploy from a branch → main → / (root)**.
